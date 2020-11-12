@@ -31,7 +31,6 @@ namespace ProducerConsumerProblemInCSharp
                 Console.Out.WriteLine($"{id.ToString()} read {item}");
                 Console.Out.Flush();
             }
-            Thread.Sleep(100);
         }
 
         static void Produce()
